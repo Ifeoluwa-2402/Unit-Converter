@@ -1,0 +1,154 @@
+@import url('https://fonts.cdnfonts.com/css/isar-cat');
+@import url('https://fonts.cdnfonts.com/css/gorlock');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Isar Cat', sans-serif;
+}
+.main{
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(rgba(29, 29, 43, 0.5),rgba(29, 29, 43, 0.7)), url(Images/photo-1487088678257-3a541e6e3922.jpeg);
+}
+.container{
+    width: 100%;
+    height: 1000px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+.container-2 {
+    width: 60%;
+    height: 850px;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    text-align: center;
+    background: #6943ff;    
+}
+h1{
+    position: relative;
+    color: #fff;
+    font-size: 2.6rem;
+    font-family: 'Gorlock', sans-serif;
+    top: 40px;
+}
+input[type="text"] {
+    width: 150px;
+    height: 120px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 60px;
+    padding: 5px 10px;
+    font-weight: 700;
+    background: #6943ff;
+    color: #fff;
+    border: 2px solid #ccc1ff;
+    font-family: 'Gorlock', sans-serif;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    padding: 5px 10px;
+    font-weight: 700;
+    background: #fff;
+    color: #6943ff;
+    border: 2px solid #ccc1ff;
+    cursor: pointer;
+    font-family: 'Isar Cat', sans-serif;
+}
+button:hover{
+    background: #6943ff;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: .3s ease-out;
+}
+.container-3{
+    width: 100%;
+    height: auto;
+    background: #1f2937;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    gap: 30px;
+}
+.conversion{
+    width: 90%;
+    height: 120px;
+    padding: 20px 0;
+    background: #273549;
+    padding: 30px 20px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+h2{
+    color: #ccc1ff;
+    font-size: 20px;
+    font-family: 'Gorlock', sans-serif;
+    margin-bottom: 20px;
+}
+p{
+    color: #fff;
+    font-size: 1.2rem; 
+    font-family:  sans-serif;
+}
+
+
+@media screen and (max-width: 768px) {
+    .main{
+        height: 850px;
+    }
+    .container{
+        height: 850px;
+    }
+    .container-2 {
+        width: 90%;
+        height: auto;
+        top: 35%;
+    }
+    h1{
+        font-size: 1.8rem;
+        top: 30px;
+    }
+    input[type="text"] {
+        width: 100px;
+        height: 80px;
+        font-size: 3rem;
+        margin-top: 70px;
+    }
+    button{
+        width: 100px;
+        height: 40px;
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    .container-3{
+        padding: 30px 0;
+        gap: 20px;
+    }
+    .conversion{
+        width: 95%;
+        height: auto;
+        padding: 20px 10px;
+    }
+    h2{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 1rem; 
+    }
+}
