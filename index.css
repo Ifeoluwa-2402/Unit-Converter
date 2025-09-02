@@ -11,7 +11,7 @@ body{
 .main{
     width: 100%;
     height: 1000px;
-    background: linear-gradient(rgba(29, 29, 43, 0.5),rgba(29, 29, 43, 0.7)), url(Images/photo-1487088678257-3a541e6e3922.jpeg);
+    background: linear-gradient(rgba(29, 29, 43, 0.5),rgba(29, 29, 43, 0.7)), url(photo-1487088678257-3a541e6e3922.jpeg);
 }
 .container{
     width: 100%;
