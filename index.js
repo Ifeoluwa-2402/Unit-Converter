@@ -27,6 +27,8 @@ function convertMass(value) {
 convert.addEventListener('click', function() {
     if(input.value === "") {
         alert("Please enter a number")
+        input.value = ""
+        return
     } else if (isNaN(input.value)) {
         alert("Invalid input. Please enter a valid number.")
         input.value = ""
