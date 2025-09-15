@@ -36,7 +36,7 @@ h1{
     font-family: 'Gorlock', sans-serif;
     top: 40px;
 }
-input[type="text"] {
+input[type="number"] {
     width: 150px;
     height: 120px;
     border-radius: 5px;
